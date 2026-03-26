@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hafidz Alwi, S.Ap | Business Development & Ops Specialist</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+        
+        body { 
+            font-family: 'Plus Jakarta Sans', sans-serif; 
+            scroll-behavior: smooth; 
+        }
+
+        .text-gradient {
+            background: linear-gradient(to right, #ffffff, #93c5fd);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .bg-navy-dark { background-color: #0f172a; }
+        .bg-gold { background-color: #f59e0b; }
+        .text-gold { color: #f59e0b; }
+        
+        .hero-pattern {
+            background-color: #0f172a;
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%231e293b' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+
+        .glass {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .card-hover:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            border-color: #3b82f6;
+        }
+
+        .timeline-dot {
+            position: absolute;
+            left: -9px;
+            top: 0;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #f59e0b;
+            border: 4px solid #0f172a;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <div class="w-10 h-10 bg-navy-dark rounded-lg flex items-center justify-center text-white font-bold text-xl">H</div>
+                <span class="text-xl font-extrabold tracking-tight text-slate-800">HAFIDZ<span class="text-blue-600">ALWI</span></span>
+            </div>
+            <div class="hidden md:flex space-x-10 text-sm font-semibold tracking-wide uppercase text-slate-600">
+                <a href="#home" class="hover:text-blue-600 transition">Beranda</a>
+                <a href="#about" class="hover:text-blue-600 transition">Profil</a>
+                <a href="#experience" class="hover:text-blue-600 transition">Pengalaman</a>
+                <a href="#skills" class="hover:text-blue-600 transition">Keahlian</a>
+                <a href="#contact" class="bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700 transition">Kontak</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative min-h-screen flex items-center pt-20 hero-pattern overflow-hidden">
+        <!-- Floating Elements -->
+        <div class="absolute top-20 right-10 w-64 h-64 bg-blue-600/20 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-10 left-10 w-96 h-96 bg-indigo-600/10 rounded-full blur-3xl"></div>
+
+        <div class="max-w-7xl mx-auto px-6 relative z-10 grid md:grid-cols-2 gap-12 items-center">
+            <div data-aos="fade-right">
+                <span class="inline-block py-1 px-4 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-sm font-bold mb-6">Tersedia untuk Peluang Baru</span>
+                <h1 class="text-5xl md:text-7xl font-extrabold text-white leading-tight mb-6">
+                    Mendorong <span class="text-blue-500">Pertumbuhan</span> Bisnis Melalui Operasi Strategis.
+                </h1>
+                <p class="text-xl text-slate-400 mb-10 max-w-lg leading-relaxed">
+                    Supervisor Business Development dengan 6+ tahun pengalaman dalam mengoptimalkan performa penjualan dan efisiensi operasional.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#contact" class="bg-blue-600 text-white px-8 py-4 rounded-xl font-bold hover:bg-blue-700 transition-all shadow-lg shadow-blue-600/25 flex items-center gap-2">
+                        Hubungi Saya <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#experience" class="bg-white/5 text-white border border-white/10 px-8 py-4 rounded-xl font-bold hover:bg-white/10 transition flex items-center gap-2">
+                        Lihat Karir
+                    </a>
+                </div>
+            </div>
+            <div class="hidden md:flex justify-end" data-aos="fade-left">
+                <div class="relative">
+                    <div class="absolute -inset-4 bg-gradient-to-tr from-blue-600 to-amber-500 rounded-3xl blur opacity-30 animate-pulse"></div>
+                    <div class="relative w-80 h-[450px] bg-slate-800 rounded-3xl border border-white/10 overflow-hidden shadow-2xl flex items-center justify-center">
+                         <!-- Placeholder for Professional Photo -->
+                         <div class="text-center p-10">
+                            <i class="fas fa-user-tie text-8xl text-blue-500/50 mb-6"></i>
+                            <div class="h-2 w-20 bg-blue-500 mx-auto rounded-full"></div>
+                            <p class="mt-4 text-slate-400 text-sm italic font-medium">Hafidz Alwi, S.Ap</p>
+                         </div>
+                    </div>
+                    <!-- Experience Badge -->
+                    <div class="absolute -bottom-6 -left-10 bg-white p-6 rounded-2xl shadow-xl" data-aos="zoom-in" data-aos-delay="400">
+                        <p class="text-4xl font-extrabold text-blue-600">6+</p>
+                        <p class="text-xs font-bold text-slate-500 uppercase tracking-widest">Tahun Pengalaman</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Summary / About -->
+    <section id="about" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div data-aos="fade-up">
+                    <h2 class="text-sm font-black text-blue-600 uppercase tracking-[0.3em] mb-4">Profil Profesional</h2>
+                    <h3 class="text-4xl font-bold text-slate-900 mb-8 leading-tight">Membangun Jembatan antara Target Bisnis & Eksekusi Operasional.</h3>
+                    <div class="space-y-6 text-lg text-slate-600 leading-relaxed">
+                        <p>
+                            Lulusan Sarjana Administrasi Publik dengan IPK 3.79, saya memiliki spesialisasi dalam mengelola kompleksitas operasional ritel dan pengembangan bisnis.
+                        </p>
+                        <p>
+                            Fokus utama saya adalah menciptakan sistem yang berkelanjutan—mulai dari skema insentif tim sales yang kompetitif hingga manajemen kontrak legal yang presisi. Saya percaya bahwa data dan hubungan stakeholder adalah kunci pertumbuhan.
+                        </p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bg-slate-50 p-8 rounded-3xl border border-slate-100">
+                        <h4 class="text-3xl font-bold text-blue-600 mb-2">3.79</h4>
+                        <p class="text-sm font-semibold text-slate-500">IPK Kelulusan</p>
+                    </div>
+                    <div class="bg-slate-900 p-8 rounded-3xl text-white">
+                        <h4 class="text-3xl font-bold text-gold mb-2">100%</h4>
+                        <p class="text-sm font-semibold text-slate-400">Target Compliance</p>
+                    </div>
+                    <div class="bg-blue-600 p-8 rounded-3xl text-white col-span-2">
+                        <h4 class="text-xl font-bold mb-2">Multisektoral</h4>
+                        <p class="text-sm text-blue-100 italic">Otomotif • Perbankan • Farmasi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="py-24 bg-slate-50">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-sm font-black text-blue-600 uppercase tracking-[0.3em] mb-4">Rekam Jejak Karir</h2>
+                <h3 class="text-4xl font-bold text-slate-900">Pengalaman Profesional</h3>
+            </div>
+
+            <div class="relative border-l-2 border-slate-200 ml-4 space-y-12">
+                <!-- Otoklix -->
+                <div class="relative pl-10" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 card-hover transition-all">
+                        <div class="flex flex-wrap justify-between items-start mb-4 gap-2">
+                            <div>
+                                <h4 class="text-2xl font-bold text-slate-900">Supervisor Business Development</h4>
+                                <p class="text-blue-600 font-bold">PT. Otoklix (Otomotif Digital)</p>
+                            </div>
+                            <span class="px-4 py-1 bg-blue-50 text-blue-700 rounded-full text-xs font-bold uppercase tracking-wider">2023 — 2025</span>
+                        </div>
+                        <ul class="text-slate-600 space-y-3 list-disc pl-5">
+                            <li>Optimalisasi Skema Insentif: Merancang struktur insentif baru untuk meningkatkan produktivitas tim sales.</li>
+                            <li>Sales Operations: Mengelola pipeline, forecasting, dan penyediaan sales kit pendukung.</li>
+                            <li>Stakeholder Management: Menjalin kemitraan strategis dengan vendor dan mitra eksternal.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Bank Mandiri -->
+                <div class="relative pl-10" data-aos="fade-up">
+                    <div class="timeline-dot bg-slate-400"></div>
+                    <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 card-hover transition-all">
+                        <div class="flex flex-wrap justify-between items-start mb-4 gap-2">
+                            <div>
+                                <h4 class="text-2xl font-bold text-slate-900">Mikro Kredit Sales (MKS)</h4>
+                                <p class="text-blue-600 font-bold">PT. Bank Mandiri (Persero) Tbk</p>
+                            </div>
+                            <span class="px-4 py-1 bg-slate-100 text-slate-600 rounded-full text-xs font-bold uppercase tracking-wider">2018 — 2019</span>
+                        </div>
+                        <p class="text-slate-600 leading-relaxed italic">
+                            Fokus pada ekspansi kredit mikro, analisis risiko debitur, dan pencapaian target lending bulanan melalui pendekatan personal ke sektor UMKM.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Bank Sinarmas -->
+                <div class="relative pl-10" data-aos="fade-up">
+                    <div class="timeline-dot bg-slate-400"></div>
+                    <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 card-hover transition-all">
+                        <div class="flex flex-wrap justify-between items-start mb-4 gap-2">
+                            <div>
+                                <h4 class="text-2xl font-bold text-slate-900">Pelaksana Divisi Satuan Layanan</h4>
+                                <p class="text-blue-600 font-bold">PT. Bank Sinarmas Tbk</p>
+                            </div>
+                            <span class="px-4 py-1 bg-slate-100 text-slate-600 rounded-full text-xs font-bold uppercase tracking-wider">2017 — 2018</span>
+                        </div>
+                        <p class="text-slate-600 leading-relaxed">
+                            Memastikan operasional cabang berjalan sesuai Standard Operating Procedure (SOP) dan memberikan layanan prima kepada nasabah korporasi maupun individu.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="py-24 bg-navy-dark text-white relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-1/3 h-full bg-blue-600/10 skew-x-12"></div>
+        <div class="max-w-7xl mx-auto px-6 relative z-10">
+            <div class="mb-16">
+                <h2 class="text-sm font-black text-blue-400 uppercase tracking-[0.3em] mb-4">Keahlian Utama</h2>
+                <h3 class="text-4xl font-bold">Kompetensi & Teknologi</h3>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Category 1 -->
+                <div class="glass p-10 rounded-3xl" data-aos="zoom-in">
+                    <div class="w-14 h-14 bg-blue-600 rounded-2xl flex items-center justify-center mb-8 shadow-lg shadow-blue-600/40">
+                        <i class="fas fa-rocket text-2xl"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-4">Business Strategy</h4>
+                    <ul class="space-y-3 text-slate-400">
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-blue-500"></i> Incentive Scheme Design</li>
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-blue-500"></i> Market Budget Analysis</li>
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-blue-500"></i> Partnership Growth</li>
+                    </ul>
+                </div>
+
+                <!-- Category 2 -->
+                <div class="glass p-10 rounded-3xl" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="w-14 h-14 bg-amber-500 rounded-2xl flex items-center justify-center mb-8 shadow-lg shadow-amber-500/40">
+                        <i class="fas fa-chart-pie text-2xl text-navy-dark"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-4">Sales Operations</h4>
+                    <ul class="space-y-3 text-slate-400">
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-amber-500"></i> CRM Management</li>
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-amber-500"></i> Sales Forecasting</li>
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-amber-500"></i> Inventory Optimization</li>
+                    </ul>
+                </div>
+
+                <!-- Category 3 -->
+                <div class="glass p-10 rounded-3xl" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="w-14 h-14 bg-emerald-500 rounded-2xl flex items-center justify-center mb-8 shadow-lg shadow-emerald-500/40">
+                        <i class="fas fa-balance-scale text-2xl"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-4">Legal & GA</h4>
+                    <ul class="space-y-3 text-slate-400">
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-emerald-500"></i> MOU/PKS Drafting</li>
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-emerald-500"></i> Vendor Procurement</li>
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-emerald-500"></i> Compliance Audit</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Tech Stack Row -->
+            <div class="mt-16 pt-10 border-t border-white/10 flex flex-wrap justify-center gap-12 grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all">
+                <span class="font-bold text-xl tracking-tighter">Advanced Excel</span>
+                <span class="font-bold text-xl tracking-tighter">Google Analytics</span>
+                <span class="font-bold text-xl tracking-tighter">Management Reporting</span>
+                <span class="font-bold text-xl tracking-tighter">ERP Systems</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section id="contact" class="py-24 bg-white relative">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="bg-blue-600 rounded-[3rem] p-12 md:p-20 text-center text-white relative overflow-hidden shadow-2xl">
+                <!-- Background Decoration -->
+                <div class="absolute -top-10 -right-10 w-40 h-40 bg-white/10 rounded-full"></div>
+                
+                <h2 class="text-4xl md:text-5xl font-extrabold mb-8 relative z-10" data-aos="fade-up">Siap Untuk Berkolaborasi Mencapai Target Anda?</h2>
+                <p class="text-xl text-blue-100 mb-12 max-w-2xl mx-auto relative z-10" data-aos="fade-up" data-aos-delay="100">
+                    Mari berdiskusi bagaimana pengalaman saya dalam pengembangan bisnis dan efisiensi operasional dapat membantu perusahaan Anda berkembang.
+                </p>
+                
+                <div class="flex flex-col md:flex-row justify-center gap-6 relative z-10" data-aos="fade-up" data-aos-delay="200">
+                    <a href="mailto:hafidzalwi002@gmail.com" class="bg-white text-blue-600 px-10 py-5 rounded-2xl font-bold text-lg hover:bg-slate-100 transition shadow-xl flex items-center justify-center gap-3">
+                        <i class="fas fa-envelope"></i> Email Saya
+                    </a>
+                    <a href="https://linkedin.com/in/hafidz-alwi-55226422b" target="_blank" class="bg-navy-dark text-white px-10 py-5 rounded-2xl font-bold text-lg hover:bg-slate-900 transition shadow-xl flex items-center justify-center gap-3">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                </div>
+
+                <div class="mt-12 pt-8 border-t border-white/20 text-blue-100 font-medium">
+                    <i class="fas fa-phone-alt mr-2"></i> +62 896 0698 6346
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 bg-slate-50 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="flex items-center gap-2 opacity-60">
+                <div class="w-8 h-8 bg-slate-800 rounded flex items-center justify-center text-white font-bold text-sm">H</div>
+                <span class="text-lg font-bold tracking-tight text-slate-800 uppercase">Hafidz Alwi</span>
+            </div>
+            <p class="text-slate-500 text-sm font-medium italic">
+                &copy; 2025 – Professional Portfolio. Dibuat dengan presisi tinggi.
+            </p>
+            <div class="flex space-x-6 text-slate-400">
+                <a href="#" class="hover:text-blue-600 transition"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="hover:text-blue-600 transition"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Inisialisasi AOS (Animate on Scroll)
+        AOS.init({
+            duration: 1000,
+            once: true,
+            offset: 100
+        });
+    </script>
+</body>
+</html>
